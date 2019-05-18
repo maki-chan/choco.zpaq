@@ -5,6 +5,7 @@
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zpaq</id>
     <version>7.15</version>
+    <packageSourceUrl>https://github.com/maki-chan/choco.zpaq</packageSourceUrl>
     <owners>Michael Armbruster</owners>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
