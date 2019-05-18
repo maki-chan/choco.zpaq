@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>zpaq</id>
+    <version>7.15</version>
+    <owners>Michael Armbruster</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>zpaq</title>
+    <authors>Matt Mahoney</authors>
+    <projectUrl>http://www.mattmahoney.net/dc/zpaq.html</projectUrl>
+    <copyright>Copyright © 2016 Matt Mahoney</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/zpaq/zpaq/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/zpaq/zpaq</projectSourceUrl>
+    <docsUrl>http://mattmahoney.net/dc/zpaqdoc.html</docsUrl>
+    <tags>zpaq compression backups data</tags>
+    <summary>Journaling archiver for incremental backups</summary>
+    <description>zpaq manages journaling archives for incremental user-level local or remote backups that conform to The ZPAQ Open Standard Format for Highly Compressed Data (see AVAILABILITY). The format supports encrypted, deduplicated, and compressed single or multi-part archives with rollback capability. It supports archives as large as 1000 times available memory or up to 250 TB and 4 billion files, interoperable between Windows and Unix/Linux/OS X.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
